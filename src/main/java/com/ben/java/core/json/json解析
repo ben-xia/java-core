@@ -1,3 +1,9 @@
+/**
+  * Object: JavaBean 对象类型
+  * JSON: Jsonobject类型,本质就是map[控台打印为{}]
+  * JSONstring: string类型[指定类型,解析成javaBean, 不指定对象,解析成jsonobject]
+  * JavaBean, JSONOBJECT, jsonstring 三者的转换;
+  */
 对象嵌套后的: jsonstring[String类型]
 			 {"name":"admin","users":[{"Age":35,"Bir":"2022-12-25","sex":"男"},{"Age":0,"Name":"root"}]}
 {
