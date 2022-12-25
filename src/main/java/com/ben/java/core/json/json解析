@@ -1,0 +1,48 @@
+对象嵌套后的: jsonstring[String类型]
+			 {"name":"admin","users":[{"Age":35,"Bir":"2022-12-25","sex":"男"},{"Age":0,"Name":"root"}]}
+{
+    "name": "admin",
+    "users":
+    [
+        {
+            "Age": 35,
+            "Bir": "2022-12-25",
+            "sex": "男"
+        },
+        {
+            "Age": 0,
+            "Name": "root"
+        }
+    ]
+}
+
+javaBean{
+	String name;
+	List<User> users;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{
+    "name": "admin",
+    "usersStr": "[{\"Age\":35,\"Bir\":\"2022-12-25\",\"sex\":\"男\"},{\"Age\":0,\"Name\":\"root\"}]"
+}
+
+
+javaBean{
+	String name;
+	String usersStr;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+javaBean{
+	String name;
+	List<User> users;
+	String usersStr;
+}
+
+想反序列化usersStr拿到JavaBean,在将其set到List<User>中;
