@@ -1,7 +1,7 @@
 package com.ben.java.algorithm.sort;
 
 /**
- * 二分法查找
+ * 二分法查找算法思路: 准备一个有序的数组, 不断的与中间下标的值比大小
  */
 public class BinarySearch {
     public static void main(String[] args) {
@@ -10,6 +10,12 @@ public class BinarySearch {
 
     }
 
+    /**
+     * 返回要查找的value在数组中的下标,如果没找到返回-1
+     * @param value
+     * @param arr
+     * @return
+     */
     public static int binarySearch(int value, int[] arr) {
         int head, mid, tail;
         head = 0;

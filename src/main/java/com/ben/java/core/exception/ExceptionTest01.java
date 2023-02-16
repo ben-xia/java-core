@@ -30,4 +30,18 @@ public class ExceptionTest01 {
 
 	}
 
+	public int testFinally() {
+		int i = 0;
+		try {
+			i = 10;
+			return i;
+		} catch (Exception e) {
+			i = 20;
+			return i;
+		} finally {
+			i = 30;  //返回10;
+//			return i; //返回30
+		}
+	}
+
 }

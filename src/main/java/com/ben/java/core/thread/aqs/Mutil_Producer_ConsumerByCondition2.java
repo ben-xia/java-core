@@ -59,7 +59,7 @@ class Producer2 implements Runnable {
 					}
 				}
 				queue.offer(1);
-				System.out.println("向队列中插入了一个对象，队列的剩余空间是：" + (queueSize - queue.size()));
+				System.out.println(Thread.currentThread().getName()+" - 向队列中插入了一个对象，队列的剩余空间是：" + (queueSize - queue.size()));
 				consume.signal();
 				try {
 					Thread.sleep(100);
@@ -108,7 +108,7 @@ class Consumer2 implements Runnable {
 					}
 				}
 				queue.poll();
-				System.out.println("从队列中取出一个元素，队列剩余数量是：" + queue.size());
+				System.out.println(Thread.currentThread().getName()+" - 从队列中取出一个元素，队列剩余数量是：" + queue.size());
 				produce.signal();
 				try {
 					Thread.sleep(100);

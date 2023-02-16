@@ -1,6 +1,6 @@
 package com.ben.java.core.thread;
- 
-/** 
+
+/**
 * 在实际编程中，要尽量避免出现死锁的情况，但是让你故意写一个死锁的程序时似乎也不太简单（有公司会出这样的面试题），
 * 以下是一个简单的死锁例子。
 * 线程的同步化可能会造成死锁，死锁发生在两个线程相互持有对方正在等待的东西（实际是两个线程共享的东西）。
@@ -15,8 +15,8 @@ package com.ben.java.core.thread;
 public class DeadLock implements Runnable {  
     public int flag = 1;  
     //静态对象是类的所有对象共享的  
-    private static Object o1 = new Object(), o2 = new Object();  
-    @Override  
+    private static Object o1 = new Object(), o2 = new Object();
+    @Override
     public void run() {  
         System.out.println("flag=" + flag);  
         if (flag == 1) {  
