@@ -1,4 +1,4 @@
-package com.ben.java.core.json;
+package com.ben.java.core.serialize.json;
 
 import lombok.Data;
 

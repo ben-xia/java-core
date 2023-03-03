@@ -1,4 +1,4 @@
-package com.ben.java.core.json;
+package com.ben.java.core.serialize.json;
 
 import com.alibaba.fastjson.serializer.JSONSerializer;
 import com.alibaba.fastjson.serializer.ObjectSerializer;
