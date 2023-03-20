@@ -15,6 +15,8 @@ public class lambdaDemo {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("functionTest--------");
         functionTest();
+        /*注意此用法: 此时functionTest会在一个新的Thread中运行*/
+        ThreadUtils.addShutdownHook(lambdaDemo::functionTest);
         System.out.println("consumerTest--------");
         consumerTest();
         System.out.println("predicateTest--------");
