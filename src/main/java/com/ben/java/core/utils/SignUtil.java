@@ -1,6 +1,7 @@
 package com.ben.java.core.utils;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -9,7 +10,7 @@ import java.util.Date;
 import java.util.Random;
 
 public class SignUtil {
-   private static final Logger logger = Logger.getLogger(SignUtil.class.getName());
+   private static final Logger logger = LoggerFactory.getLogger(SignUtil.class.getName());
 
    public static String getTimestamp() {
       return Long.toString((new Date()).getTime());

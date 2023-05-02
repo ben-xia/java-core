@@ -4,6 +4,8 @@ package com.ben.java;
 import com.ben.java.core.lambda.Person;
 import com.ben.java.core.utils.PrintObjectHeader;
 
+import java.util.Vector;
+
 /**
  * @author ben-xia
  * @date 2020/03/28
@@ -12,6 +14,17 @@ import com.ben.java.core.utils.PrintObjectHeader;
 public class Main {
 
     public static void main(String[] args) {
+
+        Vector vector = new Vector();
+        vector.add("1");
+        vector.add("2");
+        vector.add("3");
+        vector.add("4");
+        vector.add("5");
+        System.out.println(vector.size());
+        System.out.println(vector.get(0));
+        System.out.println(vector.size());
+
 //        System.out.println(System.getProperty("user.home"));
 //        stu stu = new stu();
 //        stu.setName("aaa");

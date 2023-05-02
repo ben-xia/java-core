@@ -1,12 +1,13 @@
 package com.ben.java.core.utils;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.*;
 
 public class PropertiesUtil {
-   private static final Logger logger = Logger.getLogger(PropertiesUtil.class.getName());
+   private static final Logger logger = LoggerFactory.getLogger(PropertiesUtil.class.getName());
    public static final int BY_PROPERTIES = 1;
    public static final int BY_RESOURCEBUNDLE = 2;
    public static final int BY_PROPERTYRESOURCEBUNDLE = 3;
