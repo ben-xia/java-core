@@ -1,4 +1,4 @@
-package com.ben.java.gof.behavioral_model.strategy;
+package com.ben.java.gof.behavioral_model.strategy.v1;
 
 /**
  * @author ben-xia

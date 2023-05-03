@@ -1,5 +1,7 @@
 package com.ben.java.gof.structural_model.adapter.passport;
 
+import com.ben.java.gof.ResultMsg;
+
 /**
  * @author: ben.xia
  * @desc:

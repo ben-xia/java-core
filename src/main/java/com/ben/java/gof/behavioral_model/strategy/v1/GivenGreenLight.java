@@ -1,4 +1,4 @@
-package com.ben.java.gof.behavioral_model.strategy;
+package com.ben.java.gof.behavioral_model.strategy.v1;
 
 /**
  * @author cbf4Life cbf4life@126.com

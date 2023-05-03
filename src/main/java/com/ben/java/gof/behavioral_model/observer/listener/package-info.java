@@ -31,4 +31,4 @@
  * @date   2019年05月19日下午3:57:50
  * @version 
  */
-package com.ben.java.gof.behavioral_model.listener;
+package com.ben.java.gof.behavioral_model.observer.listener;

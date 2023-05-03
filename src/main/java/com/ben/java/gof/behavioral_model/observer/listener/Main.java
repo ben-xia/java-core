@@ -1,4 +1,4 @@
-package com.ben.java.gof.behavioral_model.listener;
+package com.ben.java.gof.behavioral_model.observer.listener;
 
 /**
  * @author ben-xia

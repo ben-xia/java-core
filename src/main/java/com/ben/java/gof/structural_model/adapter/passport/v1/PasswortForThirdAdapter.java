@@ -1,7 +1,7 @@
 package com.ben.java.gof.structural_model.adapter.passport.v1;
 
 import com.ben.java.gof.structural_model.adapter.passport.PasswortService;
-import com.ben.java.gof.structural_model.adapter.passport.ResultMsg;
+import com.ben.java.gof.ResultMsg;
 import org.apache.commons.lang.StringUtils;
 
 /**
