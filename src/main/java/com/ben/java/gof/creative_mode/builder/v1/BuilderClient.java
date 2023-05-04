@@ -1,7 +1,5 @@
-package com.ben.java.gof.creative_mode.builder;
+package com.ben.java.gof.creative_mode.builder.v1;
 
-
-import org.apache.ibatis.mapping.CacheBuilder;
 
 /**
  * jdk的StringBuilder
